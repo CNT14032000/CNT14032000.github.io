@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color:blue" wedth="120" hight="120">  profile </h1>
+    <p> name</p>
+    <h2 style="color:black" style="font-size:medium"> introduce yourself </h2>
+    <h3>student</h3>
+    <hr>
+    <a href="https://www.w3schools.com">This is a link school</a>
+    <br>
+    <img src="images/IMG_5123.JPG" title="bong da" alt="caotuan" 
+    width="10%" height="70%">
+    <pre>
+        duoc dung lam tho
+        ngat dong theo tung cai
+        ko bi gop
+    </pre>
+    <br> END
+
+    <hr>
+
+    <h4 style="text-align:center";><mark>HTML Quotaion and Citation Elements</mark></h4>
+    <p>HTML blockquotefor Quotations blockquote</p>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        xac dinh phan dc trich dan , thut ve cac phan tu
+    </blockquote>
+    <p>1.the <q>q</q> cho trich dan trong dau ngoac kep</p>
+    <p>2.the<q>abbr</q> de viet tat <abbr title="CaoNgocTuan">CNT</abbr></p>
+    <p>3.the<q>address</q> de biet thong tin lien he nhu mail
+    thuong nam in nghieng</p>
+    <blockquote>mail:<br>
+    <address>
+        caotuanth2000@gmail.com<br>
+    </address></blockquote>
+    <p>the<q>cite</q> cho tieu de cong viec thuong dang in nghieng</p>
+    <blockquote>
+        <cite><em>Hoc HTML</em></cite>
+        <b>by Cao Ngoc Tuan</b>
+    </blockquote>
+    <p>4.the<q>bdo</q> chuyen duong ghi tu trai qua phai</p>
+    <blockquote>
+        <bdo dir="rtl">hoc phai thuc hanh</bdo>
+    </blockquote>
+    
+    <hr>
+
+    <h5 style="color:aqua;text-align:center"><strong>HTML Comment Tag</strong></h5>
+    <p>Chu thich <q>!--</q> dung de an no se ko hien code len</p>
+    <!--
+        sdfijaiwoefn;sdzzjv
+    -->
+    
+
+    <hr>
+    <h6 id = "myh">Taimienphi.vn</h6>
+    <button onclick="displayResult()">Change text</button>
+    <!--
+    <script>
+        function displayResult(){
+            document.getElementById("myh").innerHTML = "Have a nice day!";
+        }
+    </script>
+-->
+
+</body>
+</html>
